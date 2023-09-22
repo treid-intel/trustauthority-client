@@ -6,7 +6,7 @@ Go module for communicating with Intel Trust Authority via REST APIs.
 Download the latest version of the module with the following command:
 
 ```sh
-go get github.com/intel/trustauthority-client/go-connector
+go get github.com/treid-intel/trustauthority-client/go-connector
 ```
 
 ## Go Requirement
@@ -25,7 +25,7 @@ Create a new Connector instance, then use the exposed interfaces to
 access different parts of the Intel Trust Authority API.
 
 ```go
-import "github.com/intel/trustauthority-client/go-connector"
+import "github.com/treid-intel/trustauthority-client/go-connector"
 
 cfg := connector.Config{
         // Replace TRUSTAUTHORITY_URL with real Intel Trust Authority URL
