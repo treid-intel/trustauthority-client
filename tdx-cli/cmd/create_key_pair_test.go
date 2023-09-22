@@ -12,9 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
-	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 const (

@@ -16,9 +16,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 func TestDecryptCmd(t *testing.T) {

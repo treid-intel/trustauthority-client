@@ -32,10 +32,10 @@ package sgx
 // }
 import "C"
 import (
+	"github.com/pkg/errors"
 	"unsafe"
 
-	"github.com/intel/trustauthority-client/go-connector"
-	"github.com/pkg/errors"
+	"github.com/treid-intel/trustauthority-client/go-connector"
 )
 
 // CollectEvidence is used to get SGX quote using DCAP Quote Generation library

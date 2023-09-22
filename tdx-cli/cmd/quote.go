@@ -11,10 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/intel/trustauthority-client/go-tdx"
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
-	"github.com/pkg/errors"
-	"github.com/spf13/cobra"
+	"github.com/treid-intel/trustauthority-client/go-tdx"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 // quoteCmd represents the quote command

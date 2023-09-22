@@ -12,8 +12,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gorilla/mux"
-	"github.com/intel/trustauthority-client/go-connector"
+	"github.com/treid-intel/trustauthority-client/go-connector"
 )
 
 var nonce = `

@@ -9,8 +9,8 @@ package cmd
 import (
 	"testing"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
 	"github.com/stretchr/testify/assert"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 func TestQuoteCmd(t *testing.T) {

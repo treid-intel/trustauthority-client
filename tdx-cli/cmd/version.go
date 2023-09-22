@@ -10,8 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
-	"github.com/spf13/cobra"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 var Version = ""

@@ -13,10 +13,10 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/intel/trustauthority-client/go-connector"
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
+	"github.com/treid-intel/trustauthority-client/go-connector"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 // verifyCmd represents the verify command

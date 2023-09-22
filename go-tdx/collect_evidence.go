@@ -17,9 +17,8 @@ import (
 	"encoding/json"
 	"unsafe"
 
-	"github.com/intel/trustauthority-client/go-connector"
-	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
+	"github.com/treid-intel/trustauthority-client/go-connector"
 )
 
 // CollectEvidence is used to get TDX quote using DCAP Quote Generation service

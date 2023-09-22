@@ -9,8 +9,8 @@ package cmd
 import (
 	"os"
 
-	"github.com/intel/trustauthority-client/tdx-cli/constants"
 	"github.com/spf13/cobra"
+	"github.com/treid-intel/trustauthority-client/tdx-cli/constants"
 )
 
 // rootCmd represents the base command when called without any subcommands

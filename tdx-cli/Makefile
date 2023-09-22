@@ -8,8 +8,8 @@ VERSION := v1.0.0
 
 cli:
 	CGO_CFLAGS="-O2 -D_FORTIFY_SOURCE=2" go build -buildmode=pie -trimpath -ldflags "-s -linkmode=external -extldflags -Wl,-O1,-z,relro,-z,now \
-	    -X github.com/intel/trustauthority-client/tdx-cli/cmd.Version=$(VERSION) -X github.com/intel/trustauthority-client/tdx-cli/cmd.BuildDate=$(GITCOMMITDATE) \
-	    -X github.com/intel/trustauthority-client/tdx-cli/cmd.GitHash=$(GITCOMMIT)" -o ${APPNAME}
+	    -X github.com/treid-intel/trustauthority-client/tdx-cli/cmd.Version=$(VERSION) -X github.com/treid-intel/trustauthority-client/tdx-cli/cmd.BuildDate=$(GITCOMMITDATE) \
+	    -X github.com/treid-intel/trustauthority-client/tdx-cli/cmd.GitHash=$(GITCOMMIT)" -o ${APPNAME}
 
 test:
 	go test ./... --tags=test
